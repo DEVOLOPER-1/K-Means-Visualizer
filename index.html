@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>K-Means Clustering Visualization</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/fonts/notosans-sc.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg mb-4">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">K-Means Clustering</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title text-center mb-4">Dynamic Clustering Visualization</h2>
+                    <div class="alert info-alert" role="alert">
+                        <i class="bi bi-info-circle"></i>
+                        Watch as the points dynamically cluster and reorganize based on the K-means algorithm.
+                    </div>
+                    <div id="chartdiv" class="mt-4"></div>
+                </div>
+            </div>
+
+            <!-- Additional Information Card -->
+            <div class="card mt-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">About This Visualization</h5>
+                    <p class="card-text">
+                        This interactive visualization demonstrates the K-means clustering algorithm in action,
+                        showcasing the iterative process of data organization and pattern recognition. The animation
+                        illustrates three key concepts:
+                    </p>
+                    <ul class="card-text">
+                        <li>Initial scatter of points from a central location</li>
+                        <li>Progressive splitting of centroids to create new cluster centers</li>
+                        <li>Dynamic reorganization of points based on proximity to nearest centroid</li>
+                    </ul>
+                    <p class="card-text">
+                        Each iteration reveals how the algorithm naturally groups similar data points together,
+                        demonstrating the fundamental principles of unsupervised machine learning and data clustering.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer mt-5 py-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <span class="text-light">K-Means Clustering Visualization © 2024</span>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="https://www.linkedin.com/in/youssef-mohammad-9341a71a7" target="_blank" class="linkedin-link">
+                    <i class="fab fa-linkedin"></i>
+                    Connect with me on LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
