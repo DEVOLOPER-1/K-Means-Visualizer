@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #212A3E;    /* Dark blue */
+    --secondary-color: #394867;  /* Medium blue */
+    --tertiary-color: #9BA4B5;  /* Grey */
+    --background-color: #F1F6F9; /* Light grey/white */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+
+#chartdiv {
+    width: 50%; /* Reduced from 100% */
+    max-width: 1000px; /* Add maximum width */
+    height: 600px;
+    margin: 0 auto; /* Center the chart container */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px; /* Add some padding */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: white !important;
+}
+
+.info-alert {
+    background-color: var(--tertiary-color);
+    border: none;
+    color: var(--primary-color);
+    border-radius: 8px;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.footer {
+    margin-top: auto;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem 0;
+}
+
+.linkedin-link {
+    color: var(--background-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.linkedin-link:hover {
+    color: var(--tertiary-color);
+}
+
+.linkedin-link i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #chartdiv {
+        height: 400px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .footer .col-md-6 {
+        text-align: center !important;
+        margin: 5px 0;
+    }
+}
+
+/* Additional styling for content */
+.card-text {
+    color: var(--secondary-color);
+    line-height: 1.6;
+}
+
+ul.card-text {
+    padding-left: 20px;
+}
+
+ul.card-text li {
+    margin-bottom: 8px;
+    color: var(--secondary-color);
+}
+
+.chart-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
