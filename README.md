@@ -81,7 +81,7 @@ Key Highlights:
 let their_positions_after_movement = [];
 let circles_objects = [];
 let current_centroids = [initial_centroid_location];
-
+```
 
 ### **Clustering Logic**:
 ```javascript
