@@ -1,4 +1,3 @@
-```markdown
 # K-Means Visualizer
 
 **An interactive and dynamic web-based visualization of the K-Means clustering algorithm, combining mathematical precision with captivating animations.** 
@@ -82,7 +81,7 @@ Key Highlights:
 let their_positions_after_movement = [];
 let circles_objects = [];
 let current_centroids = [initial_centroid_location];
-```
+
 
 ### **Clustering Logic**:
 ```javascript
