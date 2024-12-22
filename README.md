@@ -15,6 +15,11 @@ Key Highlights:
 
 ---
 
+## 📽️ Showcase Video  
+_[Demo](https://mega.nz/file/9WgCWL6C#c5nBACuuXf1MiaDU3aMOKahogZWhfASv_KBrmEwVPk0)_
+
+---
+
 ## 🛠️ **Technical Stack**
 
 ### **Frontend Frameworks/Libraries**:
