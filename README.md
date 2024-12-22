@@ -139,8 +139,7 @@ function performIteration() {
 
 ---
 
-## 👨‍💻 **Author**
-Crafted with passion and perseverance by [Your Name](#). 🚀
-```
-
----
+## 📬 Contact
+For questions or feedback, feel free to reach out:
+- **Linkedin**: [Youssef Mohammad](https://www.linkedin.com/in/youssef-mohammad-9341a71a7)
+- **GitHub**: [DEVOLOPER-1](https://github.com/DEVOLOPER-1)
