@@ -103,13 +103,6 @@ function performIteration() {
 
 ---
 
-## 🎥 **Demo**
-
-🎬 **Watch the Project in Action**: [Demo Video](#)  
-(*Upload a video showing the clustering process, from the initial scatter to the final iteration.*)
-
----
-
 ## 📖 **Key Highlights**
 
 1. **Progressive Splitting**:
